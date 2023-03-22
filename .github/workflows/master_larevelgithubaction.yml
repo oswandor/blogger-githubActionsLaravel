@@ -56,5 +56,4 @@ jobs:
         with:
           app-name: 'LarevelGithubAction'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_31F47079CC514F83AABC443CB30994C9 }}
           package: .
